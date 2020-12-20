@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		6151AEC4258F618D00853037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151AEC3258F618D00853037 /* AppDelegate.swift */; };
 		6151AEC6258F618D00853037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151AEC5258F618D00853037 /* SceneDelegate.swift */; };
-		6151AEC8258F618D00853037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151AEC7258F618D00853037 /* ViewController.swift */; };
+		6151AEC8258F618D00853037 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151AEC7258F618D00853037 /* BaseViewController.swift */; };
 		6151AECB258F618D00853037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6151AEC9258F618D00853037 /* Main.storyboard */; };
 		6151AECD258F619100853037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6151AECC258F619100853037 /* Assets.xcassets */; };
 		6151AED0258F619100853037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6151AECE258F619100853037 /* LaunchScreen.storyboard */; };
+		615AF6FD258F88D6006E789C /* BaseViewControllerRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AF6FC258F88D6006E789C /* BaseViewControllerRefactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6151AEC0258F618D00853037 /* Swift Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Protocols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6151AEC3258F618D00853037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6151AEC5258F618D00853037 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6151AEC7258F618D00853037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6151AEC7258F618D00853037 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6151AECA258F618D00853037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6151AECC258F619100853037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6151AECF258F619100853037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6151AED1258F619100853037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615AF6F5258F76F5006E789C /* Protocol composition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol composition.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF6F8258F7998006E789C /* Protocol extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF6F9258F7F3E006E789C /* Master Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Master Protocols.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF6FA258F822A006E789C /*  Protocol Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = " Protocol Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF6FC258F88D6006E789C /* BaseViewControllerRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerRefactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 		6151AEB7258F618D00853037 = {
 			isa = PBXGroup;
 			children = (
+				6151AEC7258F618D00853037 /* BaseViewController.swift */,
+				615AF6FC258F88D6006E789C /* BaseViewControllerRefactor.swift */,
 				6151AEC2258F618D00853037 /* Swift Protocols */,
 				6151AEC1258F618D00853037 /* Products */,
 			);
@@ -56,15 +64,42 @@
 		6151AEC2258F618D00853037 /* Swift Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				615AF6F6258F78BF006E789C /* SwiftProtocolsTips &Tricks */,
 				6151AEC3258F618D00853037 /* AppDelegate.swift */,
 				6151AEC5258F618D00853037 /* SceneDelegate.swift */,
-				6151AEC7258F618D00853037 /* ViewController.swift */,
 				6151AEC9258F618D00853037 /* Main.storyboard */,
 				6151AECC258F619100853037 /* Assets.xcassets */,
 				6151AECE258F619100853037 /* LaunchScreen.storyboard */,
 				6151AED1258F619100853037 /* Info.plist */,
 			);
 			path = "Swift Protocols";
+			sourceTree = "<group>";
+		};
+		615AF6F4258F76E4006E789C /* Protocol composition */ = {
+			isa = PBXGroup;
+			children = (
+				615AF6F5258F76F5006E789C /* Protocol composition.playground */,
+				615AF6F9258F7F3E006E789C /* Master Protocols.playground */,
+				615AF6FA258F822A006E789C /*  Protocol Inheritance.playground */,
+			);
+			path = "Protocol composition";
+			sourceTree = "<group>";
+		};
+		615AF6F6258F78BF006E789C /* SwiftProtocolsTips &Tricks */ = {
+			isa = PBXGroup;
+			children = (
+				615AF6F7258F7988006E789C /* Protocol extensions */,
+				615AF6F4258F76E4006E789C /* Protocol composition */,
+			);
+			path = "SwiftProtocolsTips &Tricks";
+			sourceTree = "<group>";
+		};
+		615AF6F7258F7988006E789C /* Protocol extensions */ = {
+			isa = PBXGroup;
+			children = (
+				615AF6F8258F7998006E789C /* Protocol extensions.playground */,
+			);
+			path = "Protocol extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6151AEC8258F618D00853037 /* ViewController.swift in Sources */,
+				615AF6FD258F88D6006E789C /* BaseViewControllerRefactor.swift in Sources */,
+				6151AEC8258F618D00853037 /* BaseViewController.swift in Sources */,
 				6151AEC4258F618D00853037 /* AppDelegate.swift in Sources */,
 				6151AEC6258F618D00853037 /* SceneDelegate.swift in Sources */,
 			);
