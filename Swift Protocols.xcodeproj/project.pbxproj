@@ -30,6 +30,10 @@
 		615AF6F9258F7F3E006E789C /* Master Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Master Protocols.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		615AF6FA258F822A006E789C /*  Protocol Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = " Protocol Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		615AF6FC258F88D6006E789C /* BaseViewControllerRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerRefactor.swift; sourceTree = "<group>"; };
+		615AF6FF258F9979006E789C /* protocolCompositonForDI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = protocolCompositonForDI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF700258F9D6E006E789C /* DI with Protocols1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DI with Protocols1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF701258FA87D006E789C /* DI with Protocols2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DI with Protocols2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		615AF702258FAA24006E789C /* DI with Protocols3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DI with Protocols3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		6151AEC2258F618D00853037 /* Swift Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				615AF6FE258F9932006E789C /* protocol compositon for dependency injection */,
 				615AF6F6258F78BF006E789C /* SwiftProtocolsTips &Tricks */,
 				6151AEC3258F618D00853037 /* AppDelegate.swift */,
 				6151AEC5258F618D00853037 /* SceneDelegate.swift */,
@@ -100,6 +105,17 @@
 				615AF6F8258F7998006E789C /* Protocol extensions.playground */,
 			);
 			path = "Protocol extensions";
+			sourceTree = "<group>";
+		};
+		615AF6FE258F9932006E789C /* protocol compositon for dependency injection */ = {
+			isa = PBXGroup;
+			children = (
+				615AF6FF258F9979006E789C /* protocolCompositonForDI.playground */,
+				615AF700258F9D6E006E789C /* DI with Protocols1.playground */,
+				615AF701258FA87D006E789C /* DI with Protocols2.playground */,
+				615AF702258FAA24006E789C /* DI with Protocols3.playground */,
+			);
+			path = "protocol compositon for dependency injection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
